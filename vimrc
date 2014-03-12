@@ -14,20 +14,31 @@
 set runtimepath+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'derekwyatt/vim-fswitch'
+" Vundle
 Bundle 'gmarik/vundle'
+
+" Generic plug-ins
+Bundle 'derekwyatt/vim-fswitch'
+Bundle 'edsono/vim-matchit'
 Bundle 'godlygeek/tabular'
 Bundle 'kien/ctrlp.vim'
 Bundle 'majutsushi/tagbar'
+Bundle 'SirVer/ultisnips'
 Bundle 'sjl/gundo.vim'
-Bundle 'swatteau/vim-pml'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-surround'
-Bundle 'travitch/hasksyn'
-Bundle 'tsaleh/vim-matchit'
 Bundle 'Twinside/vim-cuteErrorMarker'
-Bundle 'vim-scripts/UltiSnips'
+
+" Language specific plug-ins
+Bundle 'dag/vim2hs'
+Bundle 'OrangeT/vim-csharp'
+Bundle 'swatteau/vim-pml'
+"Bundle 'travitch/hasksyn'
+
+" Colorschemes
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'cocopon/iceberg.vim'
+Bundle 'junegunn/seoul256.vim'
 
 "}}}
 
