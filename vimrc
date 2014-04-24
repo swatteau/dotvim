@@ -232,28 +232,12 @@ nmap <silent> <F4> :GundoToggle<cr>
 " Put the preview window below the current window instead of the undo graph
 let g:gundo_preview_bottom=1
 
-" PML {{{1
-"------------------------------------------------------------------------------
-
-set runtimepath+=~/.vim/bundle/pml,~/.vim/bundle/pml/after,~/.vim/bundle/pml/syntax
-
 " Tagbar {{{1
 "------------------------------------------------------------------------------
 
 " Open/Close
 nmap <silent> <F3> :TagbarToggle<cr>
 
-let g:tagbar_type_pml = {
-    \ 'ctagstype' : 'PML',
-    \ 'kinds'     : [
-        \ 'c:objects',
-        \ 'm:members',
-        \ 'f:methods',
-    \ ],
-    \ 'deffile' : '~/.vim/bundle/pml/ctags-pml.cnf'
-\ }
-
-"}}}
 " UltiSnips {{{1
 "------------------------------------------------------------------------------
 
