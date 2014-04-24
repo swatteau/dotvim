@@ -5,7 +5,7 @@
 "
 "         Author: Sebastien Watteau (swatteau@gmail.com)
 "
-"    Last Change: 2013-05-01
+"    Last Change: 2014-04-24
 "------------------------------------------------------------------------------
 
 " Bundles Configuration (Vundle) {{{1
