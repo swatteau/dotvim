@@ -34,7 +34,7 @@ Bundle 'Twinside/vim-cuteErrorMarker'
 Bundle 'dag/vim2hs'
 Bundle 'OrangeT/vim-csharp'
 Bundle 'swatteau/vim-pml'
-"Bundle 'travitch/hasksyn'
+Bundle 'sukima/asciidoc-vim'
 
 " Colorschemes
 Bundle 'altercation/vim-colors-solarized'
@@ -56,7 +56,7 @@ let g:solarized_bold=0
 let g:solarized_underline=0
 let g:solarized_visibility="low"
 colorscheme solarized
-set guifont=Inconsolata\ 12
+set guifont=Fantasque\ Sans\ Mono\ 12
 
 " No need to be vi-compatible
 set nocompatible
@@ -162,31 +162,8 @@ vmap <C-l> <Esc>
 " In insert mode, <C-j> opens a new line above the cursor
 imap <C-j> <C-O>O
 
-" In insert mode, <Ctrl-Del> deletes the word after the cursor
-imap <C-Del> <C-O>de
-
-" <Control-Alt-d> toggles diff highlighting
-nmap <silent> <C-A-d> :set invdiff<CR>
-imap <silent> <C-A-d> <C-O>:set invdiff<CR>
-
-" <Control-Alt-h> removes search highlighting
-nmap <silent> <C-A-h> :nohlsearch<CR>
-imap <silent> <C-A-h> <C-O>:nohlsearch<CR>
-
 " <Space> clears the highlighting from searches
 nmap <silent> <Space> :nohlsearch<CR>
-
-" <Control-Alt-i> toggles the case sensitivity
-nmap <silent> <C-A-i> :set invignorecase<CR>:set ignorecase?<CR>
-imap <silent> <C-A-i> <C-O>:set invignorecase<CR>:set ignorecase?<CR>
-
-" <Control-Alt-l> toggles the display of line numbers in the current buffer
-nmap <silent> <C-A-l> :set invnumber<CR>
-imap <silent> <C-A-l> <C-O>:set invnumber<CR>
-
-" <Control-Alt-w> toggles text wrapping
-nmap <silent> <C-A-w> :set invwrap<CR>:set wrap?<CR>
-imap <silent> <C-A-w> <C-O>:set invwrap<CR><C-O>:set wrap?<CR>
 
 " Edit this .vimrc file
 nmap <silent> <Leader>_ :e $MYVIMRC<CR>
@@ -205,11 +182,6 @@ nmap <silent> <Leader>cd :lcd %:p:h<CR>
 
 " Reset background color
 hi! link SignColumn Normal
-
-" DiffChanges {{{1
-"------------------------------------------------------------------------------
-
-" Use default options for this plugin
 
 " FSwitch {{{1
 "------------------------------------------------------------------------------
@@ -256,6 +228,9 @@ nmap <silent> <Leader>fJ :FSSplitBelow<cr>
 
 " Keyboard mappings
 nmap <silent> <F4> :GundoToggle<cr> 
+
+" Put the preview window below the current window instead of the undo graph
+let g:gundo_preview_bottom=1
 
 " PML {{{1
 "------------------------------------------------------------------------------
