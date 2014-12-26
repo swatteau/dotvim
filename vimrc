@@ -34,15 +34,16 @@ Bundle 'Twinside/vim-cuteErrorMarker'
 Bundle 'dag/vim2hs'
 Bundle 'OrangeT/vim-csharp'
 Bundle 'swatteau/vim-pml'
-Bundle 'sukima/asciidoc-vim'
+Bundle 'dahu/vim-asciidoc'
 Bundle 'othree/html5.vim'
 Bundle 'hail2u/vim-css3-syntax'
 Bundle 'tikhomirov/vim-glsl'
+Bundle 'wting/rust.vim'
 
 " Colorschemes
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'cocopon/iceberg.vim'
-Bundle 'junegunn/seoul256.vim'
+Bundle 'ajh17/Spacegray.vim'
 
 "}}}
 
