@@ -4,8 +4,6 @@
 "    Description: Personal Vim initialization file.
 "
 "         Author: Sebastien Watteau (swatteau@gmail.com)
-"
-"    Last Change: 2014-04-24
 "------------------------------------------------------------------------------
 
 " Bundles Configuration (Vundle) {{{1
@@ -41,9 +39,9 @@ Bundle 'tikhomirov/vim-glsl'
 Bundle 'wting/rust.vim'
 
 " Colorschemes
+Bundle 'chriskempson/base16-vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'cocopon/iceberg.vim'
-Bundle 'ajh17/Spacegray.vim'
 
 "}}}
 
@@ -56,10 +54,12 @@ Bundle 'ajh17/Spacegray.vim'
 
 " Theme and font
 set background=dark
-let g:solarized_bold=0
-let g:solarized_underline=0
-let g:solarized_visibility="low"
-colorscheme solarized
+"let g:solarized_bold=0
+"let g:solarized_underline=0
+"let g:solarized_visibility="low"
+"colorscheme solarized
+let base16colorspace=256  " Access colors present in 256 colorspace
+colorscheme base16-ocean
 set guifont=Fantasque\ Sans\ Mono\ 12
 
 " No need to be vi-compatible
