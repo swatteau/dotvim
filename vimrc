@@ -36,7 +36,7 @@ Bundle 'dahu/vim-asciidoc'
 Bundle 'othree/html5.vim'
 Bundle 'hail2u/vim-css3-syntax'
 Bundle 'tikhomirov/vim-glsl'
-Bundle 'wting/rust.vim'
+Bundle 'rust-lang/rust.vim'
 
 " Colorschemes
 Bundle 'chriskempson/base16-vim'
