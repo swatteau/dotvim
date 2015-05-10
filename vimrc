@@ -13,7 +13,7 @@ set runtimepath+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " Vundle
-Bundle 'gmarik/vundle'
+Bundle 'gmarik/Vundle.vim'
 
 " Generic plug-ins
 Bundle 'derekwyatt/vim-fswitch'
