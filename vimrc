@@ -9,6 +9,7 @@
 " Bundles Configuration (Vundle) {{{1
 "------------------------------------------------------------------------------
 
+set shell=bash
 set runtimepath+=~/.vim/bundle/vundle/
 call vundle#rc()
 
