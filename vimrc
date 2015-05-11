@@ -22,7 +22,6 @@ Bundle 'edsono/vim-matchit'
 Bundle 'godlygeek/tabular'
 Bundle 'kien/ctrlp.vim'
 Bundle 'majutsushi/tagbar'
-Bundle 'scrooloose/syntastic'
 Bundle 'SirVer/ultisnips'
 Bundle 'sjl/gundo.vim'
 Bundle 'tpope/vim-repeat'
@@ -33,7 +32,6 @@ Bundle 'Twinside/vim-cuteErrorMarker'
 Bundle 'dag/vim2hs'
 Bundle 'OrangeT/vim-csharp'
 Bundle 'swatteau/vim-pml'
-Bundle 'dahu/vim-asciidoc'
 Bundle 'othree/html5.vim'
 Bundle 'hail2u/vim-css3-syntax'
 Bundle 'tikhomirov/vim-glsl'
@@ -41,8 +39,7 @@ Bundle 'rust-lang/rust.vim'
 
 " Colorschemes
 Bundle 'chriskempson/base16-vim'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'cocopon/iceberg.vim'
+Bundle 'morhetz/gruvbox'
 
 "}}}
 
@@ -55,12 +52,8 @@ Bundle 'cocopon/iceberg.vim'
 
 " Theme and font
 set background=dark
-"let g:solarized_bold=0
-"let g:solarized_underline=0
-"let g:solarized_visibility="low"
-"colorscheme solarized
-let base16colorspace=256  " Access colors present in 256 colorspace
-colorscheme base16-ocean
+let g:gruvbox_italic=1
+colorscheme gruvbox
 set guifont=Fantasque\ Sans\ Mono\ 12
 
 " No need to be vi-compatible
