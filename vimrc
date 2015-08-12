@@ -20,6 +20,7 @@ Bundle 'gmarik/Vundle.vim'
 Bundle 'derekwyatt/vim-fswitch'
 Bundle 'edsono/vim-matchit'
 Bundle 'godlygeek/tabular'
+Bundle 'kana/vim-arpeggio'
 Bundle 'kien/ctrlp.vim'
 Bundle 'majutsushi/tagbar'
 Bundle 'SirVer/ultisnips'
@@ -177,6 +178,11 @@ nmap <silent> <Leader>cd :lcd %:p:h<CR>
 "******************************************************************************
 " Plugin Settings
 "******************************************************************************
+
+" Arpeggio {{{1
+"------------------------------------------------------------------------------
+call arpeggio#map('i', '', 0, 'fj', '<Esc>')
+call arpeggio#map('v', '', 0, 'fj', '<Esc>')
 
 " CuteErrorMarker {{{1
 "------------------------------------------------------------------------------
