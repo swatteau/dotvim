@@ -53,8 +53,10 @@ Bundle 'morhetz/gruvbox'
 " Theme and font
 set background=dark
 let g:gruvbox_italic=1
+"let g:gruvbox_contrast_dark="hard"
 colorscheme gruvbox
-set guifont=Fantasque\ Sans\ Mono\ 12
+"set guifont=Fantasque\ Sans\ Mono\ 12
+set guifont=Fira\ Mono\ Medium\ 10
 
 " No need to be vi-compatible
 set nocompatible
