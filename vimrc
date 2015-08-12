@@ -40,6 +40,7 @@ Bundle 'rust-lang/rust.vim'
 " Colorschemes
 Bundle 'chriskempson/base16-vim'
 Bundle 'morhetz/gruvbox'
+Bundle 'NLKNguyen/papercolor-theme'
 
 "}}}
 
