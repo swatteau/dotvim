@@ -176,8 +176,9 @@ nmap <silent> <Leader>cd :lcd %:p:h<CR>
 
 " Arpeggio {{{1
 "------------------------------------------------------------------------------
-call arpeggio#map('i', '', 0, 'fj', '<Esc>')
-call arpeggio#map('v', '', 0, 'fj', '<Esc>')
+let g:arpeggio_timeoutlen=80
+call arpeggio#map('i', '', 0, 'fd', '<Esc>')
+call arpeggio#map('v', '', 0, 'fd', '<Esc>')
 
 " CuteErrorMarker {{{1
 "------------------------------------------------------------------------------
