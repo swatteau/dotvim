@@ -156,13 +156,8 @@ nmap <silent> <Tab>   :bn<CR>
 nmap <silent> <S-Tab> :bp<CR>
 nmap <silent> <C-Tab> :b#<CR>
 
-" In insert mode, <Ctrl-L> goes back to Normal mode. This is coherent with
-" what i_CTRL-L is supposed to do when Vim is used as a modeless editor.
-imap <C-l> <Esc>
-vmap <C-l> <Esc>
-
-" In insert mode, <C-j> opens a new line above the cursor
-imap <C-j> <C-O>O
+" In insert mode, <C-l> opens a new line above the cursor
+imap <C-l> <C-O>O
 
 " <Space> clears the highlighting from searches
 nmap <silent> <Space> :nohlsearch<CR>
