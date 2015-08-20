@@ -3,7 +3,7 @@
 "
 "    Description: Personal Vim initialization file.
 "
-"         Author: Sebastien Watteau (swatteau@gmail.com)
+"         Author: Sebastien Watteau
 "------------------------------------------------------------------------------
 
 " Bundles Configuration (Vundle) {{{1
