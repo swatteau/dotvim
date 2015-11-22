@@ -22,6 +22,7 @@ Bundle 'edsono/vim-matchit'
 Bundle 'godlygeek/tabular'
 Bundle 'kana/vim-arpeggio'
 Bundle 'kien/ctrlp.vim'
+Bundle 'luochen1990/rainbow'
 Bundle 'majutsushi/tagbar'
 Bundle 'SirVer/ultisnips'
 Bundle 'sjl/gundo.vim'
@@ -234,6 +235,11 @@ nmap <silent> <F4> :GundoToggle<cr>
 
 " Put the preview window below the current window instead of the undo graph
 let g:gundo_preview_bottom=1
+
+" Rainbow {{{1
+"------------------------------------------------------------------------------
+
+let g:rainbow_active = 1
 
 " Tagbar {{{1
 "------------------------------------------------------------------------------
