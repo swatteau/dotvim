@@ -59,7 +59,8 @@ Bundle 'NLKNguyen/papercolor-theme'
 " Theme and font
 set background=dark
 let g:gruvbox_italic=1
-"let g:gruvbox_contrast_dark="hard"
+let g:gruvbox_contrast_dark="hard"
+let g:gruvbox_contrast_light="soft"
 colorscheme gruvbox
 "set guifont=Fantasque\ Sans\ Mono\ 12
 set guifont=Fira\ Mono\ Medium\ 10
