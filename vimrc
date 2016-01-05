@@ -9,6 +9,9 @@
 " Bundles Configuration (Vundle) {{{1
 "------------------------------------------------------------------------------
 
+" This is required and will be turned back on after Vundle has done its job
+filetype off
+
 set shell=bash
 set runtimepath+=~/.vim/bundle/vundle/
 call vundle#rc()
