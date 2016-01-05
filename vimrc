@@ -245,6 +245,13 @@ let g:gundo_preview_bottom=1
 
 let g:rainbow_active = 1
 
+" Rust {{{1
+"------------------------------------------------------------------------------
+
+if executable('rustfmt')
+    let g:rustfmt_autosave = 1
+endif
+
 " Tagbar {{{1
 "------------------------------------------------------------------------------
 
