@@ -34,6 +34,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'Twinside/vim-cuteErrorMarker'
 
 " Language specific plug-ins
+Bundle 'cespare/vim-toml'
 Bundle 'dag/vim2hs'
 Bundle 'OrangeT/vim-csharp'
 Bundle 'swatteau/vim-pml'
