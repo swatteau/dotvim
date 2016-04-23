@@ -13,7 +13,7 @@
 filetype off
 
 set shell=bash
-set runtimepath+=~/.vim/bundle/vundle/
+set runtimepath+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 " Vundle
