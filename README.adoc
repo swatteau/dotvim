@@ -11,7 +11,7 @@ git clone https://github.com/swatteau/dotvim ~/.vim
 . Install Vundle in the `bundle` directory:
 +
 ----
-git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
 ----
 
 . Create a symbolic link to `vimrc`:
@@ -20,9 +20,9 @@ git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 ----
 
-. Update all bundles inside Vim:
+. Install all plugins inside Vim:
 +
 ----
-:PluginUpdate
+:PluginInstall
 ----
 
