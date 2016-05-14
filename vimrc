@@ -21,6 +21,7 @@ Bundle 'gmarik/Vundle.vim'
 
 " Generic plug-ins
 Bundle 'derekwyatt/vim-fswitch'
+Bundle 'easymotion/vim-easymotion'
 Bundle 'edsono/vim-matchit'
 Bundle 'godlygeek/tabular'
 Bundle 'kana/vim-arpeggio'
@@ -171,7 +172,7 @@ imap <C-l> <C-O>O
 nmap <silent> <Space> :nohlsearch<CR>
 
 " Edit this .vimrc file
-nmap <silent> <Leader>_ :e $MYVIMRC<CR>
+nmap <silent> <Leader>\ :e $MYVIMRC<CR>
 
 " Change to the directory of the current buffer
 nmap <silent> <Leader>cd :lcd %:p:h<CR>
@@ -193,6 +194,11 @@ call arpeggio#map('v', '', 0, 'fd', '<Esc>')
 
 " Reset background color
 hi! link SignColumn Normal
+
+" EasyMotion {{{1
+"------------------------------------------------------------------------------
+
+nmap § <Leader><Leader>s
 
 " FSwitch {{{1
 "------------------------------------------------------------------------------
