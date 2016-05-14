@@ -45,7 +45,7 @@ Bundle 'tikhomirov/vim-glsl'
 Bundle 'rust-lang/rust.vim'
 
 " Colorschemes
-Bundle 'chriskempson/base16-vim'
+Bundle 'altercation/vim-colors-solarized'
 Bundle 'morhetz/gruvbox'
 Bundle 'NLKNguyen/papercolor-theme'
 
