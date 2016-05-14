@@ -17,37 +17,37 @@ set runtimepath+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 " Vundle
-Bundle 'gmarik/Vundle.vim'
+Plugin 'gmarik/Vundle.vim'
 
 " Generic plug-ins
-Bundle 'derekwyatt/vim-fswitch'
-Bundle 'easymotion/vim-easymotion'
-Bundle 'edsono/vim-matchit'
-Bundle 'godlygeek/tabular'
-Bundle 'kana/vim-arpeggio'
-Bundle 'kien/ctrlp.vim'
-Bundle 'luochen1990/rainbow'
-Bundle 'majutsushi/tagbar'
-Bundle 'SirVer/ultisnips'
-Bundle 'sjl/gundo.vim'
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-surround'
-Bundle 'Twinside/vim-cuteErrorMarker'
+Plugin 'derekwyatt/vim-fswitch'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'edsono/vim-matchit'
+Plugin 'godlygeek/tabular'
+Plugin 'kana/vim-arpeggio'
+Plugin 'kien/ctrlp.vim'
+Plugin 'luochen1990/rainbow'
+Plugin 'majutsushi/tagbar'
+Plugin 'SirVer/ultisnips'
+Plugin 'sjl/gundo.vim'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-surround'
+Plugin 'Twinside/vim-cuteErrorMarker'
 
 " Language specific plug-ins
-Bundle 'cespare/vim-toml'
-Bundle 'dag/vim2hs'
-Bundle 'OrangeT/vim-csharp'
-Bundle 'swatteau/vim-pml'
-Bundle 'othree/html5.vim'
-Bundle 'hail2u/vim-css3-syntax'
-Bundle 'tikhomirov/vim-glsl'
-Bundle 'rust-lang/rust.vim'
+Plugin 'cespare/vim-toml'
+Plugin 'dag/vim2hs'
+Plugin 'OrangeT/vim-csharp'
+Plugin 'swatteau/vim-pml'
+Plugin 'othree/html5.vim'
+Plugin 'hail2u/vim-css3-syntax'
+Plugin 'tikhomirov/vim-glsl'
+Plugin 'rust-lang/rust.vim'
 
 " Colorschemes
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'morhetz/gruvbox'
-Bundle 'NLKNguyen/papercolor-theme'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'morhetz/gruvbox'
+Plugin 'NLKNguyen/papercolor-theme'
 
 "}}}
 
