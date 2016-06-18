@@ -67,17 +67,20 @@ filetype plugin on
 filetype indent on
 
 " Theme and font
-set background=dark
+set guifont=Source\ Code\ Pro\ Medium\ 13
+" set guifont=Fira\ Mono\ Medium\ 13
+" set guifont=Fantasque\ Sans\ Mono\ 13
+
+" Gruvbox settings
 let g:gruvbox_italic=1
 let g:gruvbox_contrast_dark="hard"
 let g:gruvbox_contrast_light="soft"
-colorscheme gruvbox
-"set guifont=Fantasque\ Sans\ Mono\ 13
-"set guifont=Fira\ Mono\ Medium\ 13
-set guifont=Source\ Code\ Pro\ Medium\ 13
-"set guifont=Ubuntu\ Mono\ 13
+" PaperColor settings
+let g:PaperColor_Dark_Override = { 'background' : '#181818' }
+let g:PaperColor_Light_Override = { 'background' : '#e8e8e8' }
 
-
+set background=dark
+colorscheme PaperColor
 
 " Hide the tool bar and the menu bar in gVim and reduce the size of tab pages
 set guioptions-=T
