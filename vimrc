@@ -9,6 +9,9 @@
 " Bundles Configuration (Vundle) {{{1
 "------------------------------------------------------------------------------
 
+" No need to be vi-compatible
+set nocompatible
+
 " This is required and will be turned back on after Vundle has done its job
 filetype off
 
@@ -58,6 +61,11 @@ Plugin 'NLKNguyen/papercolor-theme'
 " General Options: {{{1
 "------------------------------------------------------------------------------
 
+" Enable filetype detection
+filetype on
+filetype plugin on
+filetype indent on
+
 " Theme and font
 set background=dark
 let g:gruvbox_italic=1
@@ -69,13 +77,7 @@ colorscheme gruvbox
 set guifont=Source\ Code\ Pro\ Medium\ 13
 "set guifont=Ubuntu\ Mono\ 13
 
-" No need to be vi-compatible
-set nocompatible
 
-" Enable filetype detection
-filetype on
-filetype plugin on
-filetype indent on
 
 " Hide the tool bar and the menu bar in gVim and reduce the size of tab pages
 set guioptions-=T
