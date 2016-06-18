@@ -114,7 +114,6 @@ set laststatus=2
 set fillchars=
 
 " Set display for special characters
-"set listchars=eol:¬,tab:›·,trail:␣,extends:»,precedes:«
 set listchars=eol:¬,tab:›\ ,trail:·,extends:»,precedes:«
 set list
 
