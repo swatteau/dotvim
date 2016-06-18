@@ -15,7 +15,6 @@ set nocompatible
 " This is required and will be turned back on after Vundle has done its job
 filetype off
 
-set shell=bash
 set runtimepath+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
