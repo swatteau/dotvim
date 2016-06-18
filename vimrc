@@ -16,7 +16,7 @@ set nocompatible
 filetype off
 
 set runtimepath+=~/.vim/bundle/Vundle.vim
-call vundle#rc()
+call vundle#begin()
 
 " Vundle
 Plugin 'VundleVim/Vundle.vim'
@@ -51,6 +51,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'morhetz/gruvbox'
 Plugin 'NLKNguyen/papercolor-theme'
 
+call vundle#end()
 "}}}
 
 "******************************************************************************
