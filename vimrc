@@ -172,9 +172,6 @@ nmap <silent> <C-Tab> :b#<CR>
 " In insert mode, <C-l> opens a new line above the cursor
 imap <C-l> <C-O>O
 
-" <Space> clears the highlighting from searches
-nmap <silent> <Space> :nohlsearch<CR>
-
 " Edit this .vimrc file
 nmap <silent> <Leader>\ :e $MYVIMRC<CR>
 
@@ -202,7 +199,8 @@ hi! link SignColumn Normal
 " EasyMotion {{{1
 "------------------------------------------------------------------------------
 
-nmap K <Leader><Leader>s
+" Search for a single character
+nmap <Space> <Plug>(easymotion-s)
 
 " FSwitch {{{1
 "------------------------------------------------------------------------------
