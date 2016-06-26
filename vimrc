@@ -30,6 +30,7 @@ Plugin 'kana/vim-arpeggio'
 Plugin 'kien/ctrlp.vim'
 Plugin 'luochen1990/rainbow'
 Plugin 'majutsushi/tagbar'
+Plugin 'Raimondi/delimitMate'
 Plugin 'SirVer/ultisnips'
 Plugin 'sjl/gundo.vim'
 Plugin 'tpope/vim-repeat'
@@ -195,6 +196,11 @@ call arpeggio#map('v', '', 0, 'fd', '<Esc>')
 
 " Reset background color
 hi! link SignColumn Normal
+
+" DelimitMate {{{1
+"------------------------------------------------------------------------------
+
+let delimitMate_expand_cr=1
 
 " EasyMotion {{{1
 "------------------------------------------------------------------------------
