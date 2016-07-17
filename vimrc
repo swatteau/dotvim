@@ -213,6 +213,9 @@ hi! link SignColumn Normal
 
 let delimitMate_expand_cr=1
 
+" Python configuration
+autocmd FileType python let b:delimitMate_nesting_quotes=['"', '''']
+
 " EasyMotion {{{1
 "------------------------------------------------------------------------------
 
