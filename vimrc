@@ -22,6 +22,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Generic plug-ins
+Plugin 'Chiel92/vim-autoformat'
 Plugin 'derekwyatt/vim-fswitch'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'edsono/vim-matchit'
@@ -191,6 +192,16 @@ let g:arpeggio_timeoutlen=80
 call arpeggio#map('i', '', 0, 'fd', '<Esc>')
 call arpeggio#map('v', '', 0, 'fd', '<Esc>')
 
+" Autoformat {{{1
+"------------------------------------------------------------------------------
+nmap <C-Space> :Autoformat<CR>
+
+" Autoformatting for Rust
+let g:formatterpath = ['~/.cargo/bin']
+let g:formatdef_rustfmt = '"rustfmt"'
+let g:formatters_rust = ['rustfmt']
+
+
 " CuteErrorMarker {{{1
 "------------------------------------------------------------------------------
 
@@ -261,13 +272,6 @@ let g:gundo_preview_bottom=1
 "------------------------------------------------------------------------------
 
 let g:rainbow_active = 1
-
-" Rust {{{1
-"------------------------------------------------------------------------------
-
-if executable('rustfmt')
-    let g:rustfmt_autosave = 1
-endif
 
 " Tagbar {{{1
 "------------------------------------------------------------------------------
