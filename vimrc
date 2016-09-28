@@ -70,9 +70,8 @@ filetype plugin on
 filetype indent on
 
 " Theme and font
-set guifont=Source\ Code\ Pro\ Medium\ 13
-" set guifont=Fira\ Mono\ Medium\ 13
-" set guifont=Fantasque\ Sans\ Mono\ 13
+let s:fonts = [ 'Source\ Code\ Pro\ Medium\ 13', 'Fira\ Mono\ Medium\ 13', 'Fantasque\ Sans\ Mono\ 13', 'Iosevka\ Term\ Medium\ 13' ]
+execute 'set guifont=' . s:fonts[0]
 
 " Gruvbox settings
 let g:gruvbox_italic=1
