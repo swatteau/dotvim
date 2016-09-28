@@ -77,9 +77,6 @@ execute 'set guifont=' . s:fonts[0]
 let g:gruvbox_italic=1
 let g:gruvbox_contrast_dark="hard"
 let g:gruvbox_contrast_light="soft"
-" PaperColor settings
-"let g:PaperColor_Dark_Override = { 'background' : '#121212' }
-"let g:PaperColor_Light_Override = { 'background' : '#e2e2e2' }
 
 set background=dark
 colorscheme PaperColor
