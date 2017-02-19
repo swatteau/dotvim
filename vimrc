@@ -48,6 +48,7 @@ Plugin 'othree/html5.vim'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'tikhomirov/vim-glsl'
 Plugin 'rust-lang/rust.vim'
+Plugin 'udalov/kotlin-vim'
 
 " Colorschemes
 Plugin 'altercation/vim-colors-solarized'
