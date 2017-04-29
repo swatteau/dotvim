@@ -54,6 +54,7 @@ Plugin 'udalov/kotlin-vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'morhetz/gruvbox'
 Plugin 'NLKNguyen/papercolor-theme'
+Plugin 'ayu-theme/ayu-vim'
 
 call vundle#end()
 "}}}
